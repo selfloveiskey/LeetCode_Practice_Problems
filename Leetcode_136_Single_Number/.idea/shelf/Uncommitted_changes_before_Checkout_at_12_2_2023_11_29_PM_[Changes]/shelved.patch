@@ -1,0 +1,353 @@
+Index: ../Full-Stack-Software-Engineer_Front-End-Focused/src/css/main.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/******************\r\n* Utility Section *\r\n*******************/\r\n\r\n/*\r\n   URL Font Family Options\r\n   -----------------------\r\n   font-family: 'Asap', sans-serif;\r\n   font-family: 'Noto Sans Display', sans-serif;\r\n   font-family: 'Saira', sans-serif;\r\n*/\r\n@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wdth,wght@0,100,100;0,100,200;0,100,300;0,100,400;0,100,500;0,100,600;0,100,700;0,100,800;0,100,900;1,75,400;1,100,100;1,100,200;1,100,300;1,100,400;1,100,500;1,100,600;1,100,700;1,100,800;1,100,900&family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');\r\n\r\n\r\n/*******************\r\n* Main CSS Section *\r\n********************/\r\nhtml,\r\nbody {\r\n\t/*Layout*/\r\n\tmin-height: 100vh; /*Sets the height of the area inside the padding, border, and margin of the element*/\r\n\twidth: 100%;       /* */\r\n\tpadding: 5px;      /*Generates space around an element's content, inside of any defined borders*/\r\n\tmargin: 0;         /*Create space around elements, outside of any defined borders*/\r\n\r\n\t/*Text*/\r\n\tfont-family: 'Asap Regular', 'Saira Regular', Arial !important;       /* */\r\n\tfont-style: normal;  /* */\r\n\tfont-size: 16px;     /* */\r\n\tfont-weight: 300;    /* */\r\n\tline-height: 1.2;    /*Specifies the height of a line*/\r\n\tcolor: #000000;      /*Specifies the color of text*/\r\n\r\n\t/*Appearance*/\r\n\tbackground-color: #000000;   /* */\r\n\r\n\t/*Other*/\r\n\r\n}\r\n\r\n/*\r\n \tHTML Headings\r\n*/\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6 {\r\n  display: block;\r\n  margin-left: 0;\r\n  margin-right: 0;\r\n  font-weight: bold;\r\n}\r\n\r\nh1 {\r\n  font-size: 2em;\r\n  margin-top: 0.50em;\r\n  margin-bottom: 0.50em;\r\n}\r\n\r\nh2 {\r\n  font-size: 1.5em;\r\n  margin-top: 1em;\r\n  margin-bottom: 1em;\r\n}\r\n\r\nh3 {\r\n  font-size: 1.17em;\r\n  margin-top: 1.50em;\r\n  margin-bottom: 1.50em;\r\n}\r\n\r\nh4 {\r\n  font-size: 1em;\r\n  margin-top: 2em;\r\n  margin-bottom: 2em;\r\n}\r\n\r\nh5 {\r\n  font-size: 0.83em;\r\n  margin-top: 2.50em;\r\n  margin-bottom: 2.50em;\r\n}\r\n\r\nh6 {\r\n  font-size: 0.67em;\r\n  margin-top: 3em;\r\n  margin-bottom: 3em;\r\n}\r\n\r\n/* Images\r\n   Make images easier to work with\r\n*/\r\nimg,\r\npicutre {\r\n    max-width: 100%;\r\n    display: block;\r\n}\r\n\r\n/*\r\n    Page Container\r\n*/\r\n.page-container {\r\n\t/*Layout*/\r\n\theight: 100vh; /*Sets the height of the area inside the padding, border, and margin of the element*/\r\n\tdisplay: grid; /*Specifies if or how an element is displayed*/\r\n\r\n\tgrid-gap: 0.3em; /*Defines the size of the gap between the rows and columns in a grid layout, and is a shorthand property for the following properties: grid-row-gap & grid-column-gap*/\r\n\r\n\t/*Defines the COLUMNS of a grid container by specifying the size of the grid tracks & its line names*/\r\n\tgrid-template-columns: repeat(auto-fit, minmax(100px, 1fr));\r\n\r\n\t/*Defines the ROWS of a grid container by specifying the size of the grid tracks & its line names*/\r\n\tgrid-template-rows:\r\n\t\t[main-start header-start] 2.5fr\r\n\t\t[header-end banner-start] 1fr\r\n\t\t[banner-end main-content-start] 12fr\r\n\t\t[main-content-end footer-start] 0.10fr\r\n\t\t[footer-end main-end] auto;\r\n\r\n\t/*Defines and names the cells (or “areas”) in a CSS grid container*/\r\n\tgrid-template-areas:\r\n\t\t\"header header header header header header header header header header header header\"\r\n\t\t\"banner banner banner banner banner banner banner banner banner banner banner banner\"\r\n\t\t\"mainContent mainContent mainContent mainContent mainContent mainContent mainContent mainContent mainContent mainContent aside aside\"\r\n\t\t\"footer footer footer footer footer footer footer footer footer footer footer footer\";\r\n\r\n\t/*Text*/\r\n\r\n\t/*Appearance*/\r\n\r\n\t/*Other*/\r\n}\r\n\r\n/*\r\n  All 1st level HTML elements used on the home page that is inside of the page container\r\n*/\r\nheader,\r\nmain,\r\naside,\r\nfooter {\r\n\t/*Layout*/\r\n\tdisplay: flex; /*Specifies if or how an element is displayed*/\r\n\r\n\tjustify-content: center; /*Defines how the browser distributes space between and around content items along the main-axis (left & right) of a flex container, and the inline axis of a grid container*/\r\n\r\n\talign-items: center; /*Sets the align-self value on all direct children as a group. In Flexbox, it controls the alignment of items on the Cross Axis (up & down).*/\r\n\r\n\t/*Appearance*/\r\n\r\n\r\n\t/*Other*/\r\n\r\n}\r\n\r\n/*\r\n  Site Header Container\r\n*/\r\n.site-header-container {\r\n\t/*Layout*/\r\n\tgrid-column: main-start/main-end; /*Shorthand that specifies the column grid lines where a grid item starts and ends in a grid layout in one declaration*/\r\n\tgrid-area: header; /*Shorthand that specifies the location and the size of a grid item in a grid layout by setting the value of grid-row-start, grid-column-start, grid-row-end and grid-column-end in one declaration*/\r\n\r\n\tdisplay: flex; /*Specifies if or how an element is displayed*/\r\n\tflex-flow: column wrap;\r\n\t/*justify-content: stretch; Defines how the browser distributes space between and around content items along the main-axis (left & right) of a flex container, and the inline axis of a grid container*/\r\n\t/*align-items: stretch; Sets the align-self value on all direct children as a group. In Flexbox, it controls the alignment of items on the Cross Axis (up & down).*/\r\n\r\n\t/*Text*/\r\n\r\n\r\n\t/*Appearance*/\r\n\tbackground-color: #FFFFFF;\r\n\r\n\t/*Other*/\r\n}\r\n\r\n/*\r\n  Site Header Container Kids\r\n*/\r\n.site-header-container-child{\r\n\twidth: 100%;       /* */\r\n\tborder: 2px solid #D5CABD;\r\n\tborder-style: dashed;\r\n  \tpadding: 5px\r\n}\r\n\r\n#header-promo-section{\r\n\t/*Layout*/\r\n\r\n\r\n\t/*Text*/\r\n\r\n\r\n\t/*Appearance*/\r\n\tbackground-color: #A15CE5;\r\n\r\n   /*Other*/\r\n\r\n\r\n}\r\n\r\n#header-wrapper-container{\r\n\t/*Layout*/\r\n\r\n\r\n\t/*Text*/\r\n\r\n\r\n\t/*Appearance*/\r\n\tbackground-color: #F951BE;\r\n\r\n   /*Other*/\r\n\r\n}\r\n\r\n/*\r\n  Home Page Banner Container\r\n*/\r\n.home-page-banner {\r\n\r\n}\r\n\r\n/*\r\n  Home Page Banner Container Kids\r\n*/\r\n#home-page-banner-container {\r\n\t/*Layout*/\r\n\tgrid-column: main-start/main-end; /*Shorthand that specifies the column grid lines where a grid item starts and ends in a grid layout in one declaration*/\r\n\r\n\tgrid-area: banner; /*Shorthand that specifies the location and the size of a grid item in a grid layout by setting the value of grid-row-start, grid-column-start, grid-row-end and grid-column-end in one declaration*/\r\n\r\n\t/*Text*/\r\n\r\n\t/*Appearance*/\r\n\tbackground-color: #FF6790;\r\n\r\n\t/*Other*/\r\n}\r\n\r\n/*\r\n  Home Page Main Content Container\r\n*/\r\n.home-page-main-content {\r\n\t/*Layout*/\r\n\tgrid-column: 1/11; /*Shorthand that specifies the column grid lines where a grid item starts and ends in a grid layout in one declaration*/\r\n\r\n\tgrid-area: mainContent; /*Shorthand that specifies the location and the size of a grid item in a grid layout by setting the value of grid-row-start, grid-column-start, grid-row-end and grid-column-end in one declaration*/\r\n\r\n\t/*Text*/\r\n\r\n\t/*Appearance*/\r\n\tbackground-color: #FF9769;\r\n\r\n\t/*Other*/\r\n}\r\n\r\n/*\r\n  Home Page Banner Container\r\n*/\r\n.home-page-aside {\r\n\t/*Layout*/\r\n\tgrid-column: 11/13; /*Shorthand that specifies the column grid lines where a grid item starts and ends in a grid layout in one declaration*/\r\n\r\n\tgrid-area: aside; /*Shorthand that specifies the location and the size of a grid item in a grid layout by setting the value of grid-row-start, grid-column-start, grid-row-end and grid-column-end in one declaration*/\r\n\r\n\t/*Text*/\r\n\r\n\t/*Appearance*/\r\n\tbackground-color: #FFCA58;\r\n\r\n\t/*Other*/\r\n}\r\n\r\n/*\r\n  Site Footer\r\n*/\r\n.site-footer {\r\n\t/*Layout*/\r\n\tgrid-column: main-start/main-end; /*Shorthand that specifies the column grid lines where a grid item starts and ends in a grid layout in one declaration*/\r\n\r\n\tgrid-area: footer; /*Shorthand that specifies the location and the size of a grid item in a grid layout by setting the value of grid-row-start, grid-column-start, grid-row-end and grid-column-end in one declaration*/\r\n\r\n\t/*Text*/\r\n\r\n\t/*Appearance*/\r\n\tbackground-color: #F9F871;\r\n\r\n\t/*Other*/\r\n}\r\n\r\n/****************************\r\n* Responsive Design Section *\r\n*****************************/\r\n\r\n/*\r\n  Extra small devices (phones, 600px and down)\r\n*/\r\n@media only screen and (max-width: 600px) {\r\n\t.page-container * {\r\n\t\t/*Layout*/\r\n\r\n\r\n\t\t/*Text*/\r\n\t\tcolor: #4C4452;\r\n\r\n\t\t/*Appearance*/\r\n\r\n\r\n\t\t/*Other*/\r\n\r\n\t}\r\n\r\n\t[class*=\"page-container\"] {\r\n\t\t/*Layout*/\r\n\t\tgrid-template-columns: repeat(auto-fit, minmax(100px, 1fr));\t/*Defines the COLUMNS of a grid container by specifying the size of the grid tracks & its line names*/\r\n\r\n\t\t/*Defines the ROWS of a grid container by specifying the size of the grid tracks & its line names*/\r\n\t\tgrid-template-rows:\r\n\t\t\t[main-start header-start] 2fr\r\n\t\t\t[header-end banner-start] 1fr\r\n\t\t\t[banner-end main-content-start] 12fr\r\n\t\t\t[main-content-end aside-start]1fr\r\n\t\t\t[aside-end footer-start] 0.1fr\r\n\t\t\t[footer-end main-end] auto;\r\n\r\n\t\t/*Defines and names the cells (or “areas”) in a CSS grid container*/\r\n\t\tgrid-template-areas:\r\n\t\t\t\"header\"\r\n\t\t\t\"banner\"\r\n\t\t\t\"mainContent\"\r\n\t\t\t\"aside\"\r\n\t\t\t\"footer\";\r\n\r\n\t\t/*Text*/\r\n\r\n\r\n\t\t/*Appearance*/\r\n\r\n\r\n\t\t/*Other*/\r\n\r\n\t}\r\n\r\n\t[class*=\"site-header-container\"] {\r\n\t\t/*Layout*/\r\n\t\tflex-flow: column wrap;\r\n\r\n\t\t/*Text*/\r\n\r\n\t\t/*Appearance*/\r\n\r\n\t\t/*Other*/\r\n\r\n\t}\r\n}
+===================================================================
+diff --git a/../Full-Stack-Software-Engineer_Front-End-Focused/src/css/main.css b/../Full-Stack-Software-Engineer_Front-End-Focused/src/css/main.css
+--- a/../Full-Stack-Software-Engineer_Front-End-Focused/src/css/main.css	
++++ b/../Full-Stack-Software-Engineer_Front-End-Focused/src/css/main.css	
+@@ -19,7 +19,7 @@
+ body {
+ 	/*Layout*/
+ 	min-height: 100vh; /*Sets the height of the area inside the padding, border, and margin of the element*/
+-	width: 100%;       /* */
++	min-width: 100%;       /* */
+ 	padding: 5px;      /*Generates space around an element's content, inside of any defined borders*/
+ 	margin: 0;         /*Create space around elements, outside of any defined borders*/
+ 
+@@ -38,6 +38,24 @@
+ 
+ }
+ 
++/*
++    RANDOM STUFF
++*/
++body,
++div,
++li,
++a,
++button {
++    display: flex;
++}
++
++/*
++    Remove HTML elements from the layout
++*/
++.hidden-element{
++    display: none;
++}
++
+ /*
+  	HTML Headings
+ */
+@@ -93,7 +111,7 @@
+    Make images easier to work with
+ */
+ img,
+-picutre {
++picture {
+     max-width: 100%;
+     display: block;
+ }
+@@ -103,7 +121,8 @@
+ */
+ .page-container {
+ 	/*Layout*/
+-	height: 100vh; /*Sets the height of the area inside the padding, border, and margin of the element*/
++	min-height: inherit; /*Sets the height of the area inside the padding, border, and margin of the element*/
++	min-width: inherit;
+ 	display: grid; /*Specifies if or how an element is displayed*/
+ 
+ 	grid-gap: 0.3em; /*Defines the size of the gap between the rows and columns in a grid layout, and is a shorthand property for the following properties: grid-row-gap & grid-column-gap*/
+@@ -164,11 +183,11 @@
+ 
+ 	display: flex; /*Specifies if or how an element is displayed*/
+ 	flex-flow: column wrap;
+-	/*justify-content: stretch; Defines how the browser distributes space between and around content items along the main-axis (left & right) of a flex container, and the inline axis of a grid container*/
+-	/*align-items: stretch; Sets the align-self value on all direct children as a group. In Flexbox, it controls the alignment of items on the Cross Axis (up & down).*/
++	align-items: stretch;
++
+ 
+ 	/*Text*/
+-
++	text-align: center;
+ 
+ 	/*Appearance*/
+ 	background-color: #FFFFFF;
+@@ -180,13 +199,12 @@
+   Site Header Container Kids
+ */
+ .site-header-container-child{
+-	width: 100%;       /* */
+ 	border: 2px solid #D5CABD;
+ 	border-style: dashed;
+   	padding: 5px
+ }
+ 
+-#header-promo-section{
++#site-header-promo-section{
+ 	/*Layout*/
+ 
+ 
+@@ -201,7 +219,7 @@
+ 
+ }
+ 
+-#header-wrapper-container{
++#site-header-wrapper{
+ 	/*Layout*/
+ 
+ 
+@@ -213,6 +231,38 @@
+ 
+    /*Other*/
+ 
++}
++
++/*
++  Site Header Wrapper Kids
++*/
++#site-header-main{
++	/*Layout*/
++
++
++	/*Text*/
++
++
++	/*Appearance*/
++	background-color: #BF6800;
++
++	/*Other*/
++}
++
++/*
++  Site Header Main Child
++*/
++#site-header-main-inner{
++	/*Layout*/
++
++
++	/*Text*/
++
++
++	/*Appearance*/
++	background-color: #009E9D;
++
++	/*Other*/
+ }
+ 
+ /*
+@@ -343,9 +393,61 @@
+ 
+ 	}
+ 
+-	[class*="site-header-container"] {
++    #site-header-wrapper{
++        align-items: center;
++        justify-content: space-evenly;
++        /*align-content: center;*/
++    }
++
++    /*
++        Ordering HTML elements that are inside of the site-header-wrapper
++    */
++    #mobileMenu-toggle{
++        order: 1;
++        background-color: gray;
++        flex-wrap: nowrap;
++        justify-content: flex-start;
++
++    }
++
++    #site-header-main{
++        order: 2;
++        background-color: blue;
++        box-sizing: border-box;
++        display: block;
++        flex-basis: auto;
++        flex-direction: row;
++        flex-grow: 0;
++        flex-shrink: 1;
++        flex-wrap: nowrap;
++        justify-content: flex-start;
++    }
++
++    /*
++        Ordering HTML elements that are inside of the site-header-main
++    */
++	#site-header-main-inner {
+ 		/*Layout*/
+-		flex-flow: column wrap;
++		align-content: normal;
++        align-items: center;
++        align-self: center;
++        block-size: 75px;
++        box-sizing: border-box;
++        display: flex;
++        flex-basis: auto;
++        flex-direction: row;
++        flex-grow: 0;
++        flex-shrink: 0;
++        flex-wrap: wrap;
++        inline-size: 390px;
++        justify-content: space-between;
++        padding-bottom: 16px;
++        padding-left: 36px;
++        padding-right: 16px;
++        padding-top: 16px;
++        position: relative;
++        width: 390px;
++        z-index: 1;
+ 
+ 		/*Text*/
+ 
+@@ -354,4 +456,18 @@
+ 		/*Other*/
+ 
+ 	}
++
++    /*
++        Ordering HTML elements that are inside of the site-header-main-inner
++    */
++    .search-button{
++        order: 1;
++        box-sizing: border-box;
++    }
++    .header-logo-small{
++        order: 2;
++    }
++    .customerNav{
++        order: 3;
++    }
+ }
+\ No newline at end of file
+Index: ../Full-Stack-Software-Engineer_Front-End-Focused/src/views/Index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\">\r\n    <title>Home Page</title>\r\n    <link href=\"/css/main.css\" rel=\"stylesheet\">\r\n</head>\r\n<body>\r\n<div class=\"page-container\" id=\"page-container\">\r\n\r\n    <!--(A.L1.0) Header Container Starts Here-->\r\n    <header class=\"site-header-container\" id=\"header-container\" role=\"none\">\r\n        <!--(A.L2.1) Promo Section Starts Here-->\r\n        <div class=\"site-header-container-child\" id=\"header-promo-section\"><p>Promo Section Text</p></div>\r\n\r\n        <!--(B.L2.2) Header Wrapper Container Starts Here-->\r\n        <div class=\"site-header-container-child\" id=\"header-wrapper-container\"><p>Header Wrapper Container Text</p>\r\n        </div>\r\n    </header>\r\n\r\n    <!--(B.L1.0) INSERT_NAME Starts Here-->\r\n\r\n\r\n    <!--(C.L1.0) Banner Container Starts Here-->\r\n    <header class=\"home-page-banner\" id=\"home-page-banner-container\" role=\"banner\">\r\n        <p>Banner Goes Here</p>\r\n    </header>\r\n\r\n    <!--(D.L1.0) Main Content Container Starts Here-->\r\n    <main class=\"home-page-main-content\" id=\"home-page-main-content-container\" role=\"main\">\r\n        <p>Main Content</p>\r\n    </main>\r\n\r\n    <!--(E.L1.0) Aside Starts Here-->\r\n    <aside class=\"home-page-aside\" id=\"home-page-aside\">\r\n        <p>Aside</p>\r\n    </aside>\r\n\r\n    <!--(F.L1.0) Footer Starts Here-->\r\n    <footer class=\"site-footer\" id=\"primary-footer\">\r\n        <p>Footer</p>\r\n    </footer>\r\n</div>\r\n</body>\r\n</html>
+===================================================================
+diff --git a/../Full-Stack-Software-Engineer_Front-End-Focused/src/views/Index.html b/../Full-Stack-Software-Engineer_Front-End-Focused/src/views/Index.html
+--- a/../Full-Stack-Software-Engineer_Front-End-Focused/src/views/Index.html	
++++ b/../Full-Stack-Software-Engineer_Front-End-Focused/src/views/Index.html	
+@@ -10,18 +10,116 @@
+ <div class="page-container" id="page-container">
+ 
+     <!--(A.L1.0) Header Container Starts Here-->
+-    <header class="site-header-container" id="header-container" role="none">
++    <header class="site-header-container" id="site-header-container" role="none">
++
+         <!--(A.L2.1) Promo Section Starts Here-->
+-        <div class="site-header-container-child" id="header-promo-section"><p>Promo Section Text</p></div>
++        <div class="site-header-container-child" id="site-header-promo-section">
++            <p>Promo Section Text</p>
++        </div>
++
++        <!--(B.L2.2) Header Wrapper Starts Here-->
++        <div class="site-header-container-child" id="site-header-wrapper">
++
++            <!--(A.L3.1) Header Main Starts Here-->
++            <div class="site-header-wrapper-child" id="site-header-main">
++
++                <!--(A.L4.1) Header Main Inner Starts Here-->
++                <div class="site-header-main-child" id="site-header-main-inner">
+ 
+-        <!--(B.L2.2) Header Wrapper Container Starts Here-->
+-        <div class="site-header-container-child" id="header-wrapper-container"><p>Header Wrapper Container Text</p>
++                    <!--(A.L5.1) Header Logo Large Starts Here-->
++                    <h1 class="header-logo-large hidden-element">
++                        <a href="" class="header-logo-large-link">
++                            <div class="header-logo-image-container">
++                                <img class="header-logo-image" src="" srcset="" alt="" role="img">
++                            </div>
++                        </a>
++                    </h1>
++
++                    <!--(B.L5.2) Header Logo Small Starts Here (Small Logo #3)-->
++                    <h1 class="header-logo-small">
++                        <a href="" class="header-logo-small-link">
++                            <div class="header-logo-image-container">
++                                <img class="header-logo-image" src="" srcset="" alt="" role="img">Small Logo
++                            </div>
++                        </a>
++                    </h1>
++
++                    <!--(C.L5.3) Mobile Search Button Starts Here (Magnifying Glass Icon #2)-->
++                    <button class="search-button" id="quick-search-expand" type="button" data-search="quickSearch" aria-controls="quickSearch" aria-label="Search" aria-expanded="false">
++                        <span class="TBD">Mobile Search Icon</span>
++                        <i class="searchbar-icon">
++                            <svg>
++                                <use xlink:href="#icon-search"/>
++                            </svg>
++                        </i>
++                    </button>
++
++                    <!--(D.L5.4) Quick Search Starts Here-->
++                    <div class="quickSearch hidden-element" id="quickSearch">
++                        <div class="quickSearch-container">
++                            <form class="quick-search-form" method="get" action="/search/">
++                                <fieldset class="form-fieldset">
++                                    <div class="form-field">
++                                        <p>Quick Search</p>
++                                    </div>
++                                </fieldset>
++                            </form>
++                        </div>
++                    </div>
++
++                    <!--(E.L5.5) Customer Navigation Starts Here (Acct & Shopping Cart Icon #4)-->
++                    <nav class="customerNav">
++                        <ul class="customer-nav-section">
++                            <li class="customer-nav-item-account">
++                                <a>
++                                    <span class="trellis-navUser-action-text">Account</span>
++                                    <i class="icon" aria-hidden="true">
++                                        <svg>
++                                            <use xlink:href="#icon-account"/>
++                                        </svg>
++                                    </i>
++                                </a>
++                            </li>
++                            <li class="customer-nav-item-cart">
++                                <a>
++                                    <span class="trellis-navUser-action-text">Cart</span>
++                                    <i class="icon" aria-hidden="true">
++                                        <svg>
++                                            <use xlink:href="#icon-cart"/>
++                                        </svg>
++                                    </i>
++                                </a>
++                            </li>
++                        </ul>
++                    </nav>
++
++                </div>
++
++            </div>
++
++            <!--(B.L3.2) Mobile Menu (Hamburger lines - #1)-->
++            <a href="#" class="site-header-wrapper-child" id="mobileMenu-toggle" data-mobile-menu-toggle="menu">
++                <span class="mobileMenu-toggleIcon">Hamburger menu</span>
++            </a>
++
++            <!--(C.L3.3) customerNav-pages-container-->
++            <div class="customerNav-pages-container hidden-element">
++                <nav class="customerNav-pages">
++                    <div class="navPages-quickSearch trellis-search">
++                        <p>navPages-quickSearch</p>
++                    </div>
++
++                    <div class="trellis-container">
++                        <p>trellis-container</p>
++                    </div>
++                </nav>
++            </div>
++
+         </div>
+     </header>
+ 
+     <!--(B.L1.0) INSERT_NAME Starts Here-->
+ 
+-
+     <!--(C.L1.0) Banner Container Starts Here-->
+     <header class="home-page-banner" id="home-page-banner-container" role="banner">
+         <p>Banner Goes Here</p>
