@@ -4,7 +4,136 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d6e6490-764c-421b-ad8c-dcb6ebb3989d" name="Changes" comment="This is the first solution I created. This was before I read the tags on the problem and realized I was supposed to use bit manipulation." />
+    <list default="true" id="1d6e6490-764c-421b-ad8c-dcb6ebb3989d" name="Changes" comment="This is the first solution I created. This was before I read the tags on the problem and realized I was supposed to use bit manipulation.">
+      <change afterPath="$PROJECT_DIR$/../Full-Stack-Software-Engineer_Front-End-Focused/.idea/dictionaries/miria.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full-Stack-Software-Engineer_Front-End-Focused/src/assets/images/Website_Logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Full-Stack-Software-Engineer_Front-End-Focused/src/assets/images/Website_Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Leetcode_136_Single_Number.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_643_Maximum_Average_Subarray_I/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_643_Maximum_Average_Subarray_I/Leetcode_643_Maximum_Average_Subarray_I.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/Leetcode_83_Remove_Duplicates_from_Sorted_List.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/apiguardian-api-1.1.2-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/apiguardian-api-1.1.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-jupiter-5.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-jupiter-5.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-jupiter-api-5.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-jupiter-api-5.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-jupiter-engine-5.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-jupiter-engine-5.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-jupiter-params-5.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-jupiter-params-5.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-platform-commons-1.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-platform-commons-1.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-platform-engine-1.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-platform-engine-1.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/opentest4j-1.2.0-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/opentest4j-1.2.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/src/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode_83_Remove_Duplicates_from_Sorted_List/src/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hs_err_pid189464.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hs_err_pid197648.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hs_err_pid197896.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hs_err_pid198952.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hs_err_pid200460.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hs_err_pid200888.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hs_err_pid201488.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/Website_Logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/Website_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/apiguardian-api-1.1.2-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/apiguardian-api-1.1.2-javadoc1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/apiguardian-api-1.1.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/apiguardian-api-1.1.2-sources1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/apiguardian-api-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/apiguardian-api-1.1.21.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-5.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-5.8.1-javadoc1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-5.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-5.8.1-sources1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-5.8.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-api-5.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-api-5.8.1-javadoc1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-api-5.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-api-5.8.1-sources1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-api-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-api-5.8.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-engine-5.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-engine-5.8.1-javadoc1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-engine-5.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-engine-5.8.1-sources1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-engine-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-engine-5.8.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-params-5.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-params-5.8.1-javadoc1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-params-5.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-params-5.8.1-sources1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-params-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-jupiter-params-5.8.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-platform-commons-1.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-platform-commons-1.8.1-javadoc1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-platform-commons-1.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-platform-commons-1.8.1-sources1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-platform-commons-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-platform-commons-1.8.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-platform-engine-1.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-platform-engine-1.8.1-javadoc1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-platform-engine-1.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-platform-engine-1.8.1-sources1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-platform-engine-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/junit-platform-engine-1.8.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/opentest4j-1.2.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/opentest4j-1.2.0-javadoc1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/opentest4j-1.2.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/opentest4j-1.2.0-sources1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/opentest4j-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/opentest4j-1.2.01.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/Website_Logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/Website_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/apiguardian-api-1.1.2-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/apiguardian-api-1.1.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/apiguardian-api-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-jupiter-5.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-jupiter-5.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-jupiter-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-jupiter-api-5.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-jupiter-api-5.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-jupiter-api-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-jupiter-engine-5.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-jupiter-engine-5.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-jupiter-engine-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-jupiter-params-5.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-jupiter-params-5.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-jupiter-params-5.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-platform-commons-1.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-platform-commons-1.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-platform-commons-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-platform-engine-1.8.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-platform-engine-1.8.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/junit-platform-engine-1.8.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/opentest4j-1.2.0-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/opentest4j-1.2.0-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/opentest4j-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_2_2023_11_29_PM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Leetcode_136_Single_Number/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Leetcode_136_Single_Number/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/Leetcode_136_Single_Number/SolutionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Leetcode_136_Single_Number/SolutionTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +156,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="master" />
+        <entry key="$PROJECT_DIR$/.." value="Leetcode_136_Single_Number" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -45,13 +174,16 @@
     "Repository.Attach.Sources": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "git-widget-placeholder": "Leetcode__136__Single__Number",
+    "jdk.selected.JAVA_MODULE": "corretto-19",
     "last_opened_file_path": "C:/Users/miria/IdeaProjects/Leetcode_136_Single_Number",
     "onboarding.tips.debug.path": "C:/Users/miria/IdeaProjects/Leetcode_136_Single_Number/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15136719",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
   }
@@ -111,13 +243,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="JUnit.SolutionTest.singleNumberTestCaseOne" />
         <item itemvalue="JUnit.SolutionTest.singleNumberTestCaseTwo" />
         <item itemvalue="JUnit.SolutionTest.singleNumberTestCaseFour" />
-        <item itemvalue="Application.Main (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +273,14 @@
       <option name="presentableId" value="Default" />
       <updated>1701297440883</updated>
     </task>
+    <task id="LOCAL-00001" summary="This is the first solution I created. This was before I read the tags on the problem and realized I was supposed to use bit manipulation.">
+      <created>1701578109515</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701578109515</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,7 +294,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="LeetCode_Practice_Problems/main" />
+                        <option value="LeetCode_Practice_Problems/Leetcode_136_Single_Number" />
                       </list>
                     </value>
                   </entry>
@@ -154,6 +305,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="This is the first solution I created. This was before I read the tags on the problem and realized I was supposed to use bit manipulation." />
+    <option name="LAST_COMMIT_MESSAGE" value="This is the first solution I created. This was before I read the tags on the problem and realized I was supposed to use bit manipulation." />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
